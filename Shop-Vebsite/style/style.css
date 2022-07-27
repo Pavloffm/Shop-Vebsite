@@ -1,0 +1,255 @@
+*, *::before, 
+*::after {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+a, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+a:focus,
+a:active {
+    outline: none;
+}
+aside, nav, footer,header, section, main {
+    display: block;
+}
+
+p + p {
+    margin-top: 1em;
+}
+img, svg {
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.main {
+    width: 1400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    height: 75px;
+    border-bottom: 2px solid #D35959;
+}
+.header-row {
+    display: flex;
+    align-items: center;
+}
+.ico {
+    height: 75px;
+    width: 150px;
+    display: flex;
+    border-bottom: 2px solid #D35959;
+}
+.search {
+    height: 75px;
+    width: calc(100% - 300px);
+    display: flex;
+}
+.search form {
+    width: 80%;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.basket {
+    height: 75px;
+    width: 75px;
+    display: flex;
+}
+.basket img {
+    height: 80%;
+    width: auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.autorization {
+    height: 75px;
+    width: 75px;
+    display: flex;
+}
+.search input {
+    width: 85%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 35px;
+    height: 61px;
+    margin-top: 7px;
+    border: 2px solid #740000;
+    box-shadow: 0 1px 1px #fff;
+    font-size: 20px;
+}
+.header-2 {
+    height: 40px;
+}
+.header-2-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.main1, .main2, .main3, .main4, .main5, .main6, .main7 {
+    height: 40px;
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 7px;
+}
+.main1, .main3, .main5, .main7 {
+    background-color: #FD5353;
+}
+.main2, .main4, .main6 {
+    background-color: #FF6C6C;
+}
+.categories-box {
+    height: 40px;
+    width: 100%;
+    background-color: #FFC6C6;
+}
+.categories-box a {
+    height: 40px;
+    width: 100%;
+}
+.categories-box img {
+    margin-top: 4px;
+    height: 32px;
+    width: auto;
+}
+.categories-text {
+    float: left; 
+    display: inline-block;
+    width: calc(100% - 36px);
+    padding-top: 9px;
+}
+.categories-img {   
+    float: left; 
+    display: inline-block;
+    width: 36px;
+}
+.main-section {
+    height: 280px;
+}
+.categories {
+    font-size: 20px;
+    display: inline-block;
+    float: left; 
+    width: calc(100% / 7);
+}
+.slider {
+    width: 58%;
+    display: inline-block;
+    float: left; 
+    height: 255px;
+}
+.slider img {
+    height: 100%;
+    width: auto;
+    margin-top: 12px;
+}
+.this-is-slider {
+    height: 255px;
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.information {
+    display: inline-block;
+    float: left; 
+    width: 22%;
+    height: 255px;
+}
+.this-is-information {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: gray;
+    height: 231px;
+    margin-top: 24px;
+    border-radius: 50px;
+}
+.offer {
+    height: 131px;
+    width: 98%;
+    background-color: #FF7E7E;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+.recommendations-row {
+    font-size: 24px;
+}
+.recommendations-start {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.recommendations-of-blocks {
+    height: 300px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block-recommendation {
+    background-color: #FF7878;
+    width: 15%;
+    height: 300px;
+    display: inline-block;
+    float: left;
+    border-radius: 10px;
+}
+.block-recommendation + .block-recommendation {
+    margin-left: 5%;
+}
+.recommendation-img {
+    height: 223px;
+    width: 90%;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+.recommendation-img img {
+    height: 100%;
+    width: auto;
+}
+.recommendation-header {
+    font-size: 18px;
+    text-align: center;
+}
+.recommendation-header-2 {
+    font-size: 24px;
+    text-align: center;
+}
+.recommendation-cost {
+    margin-left: 5px;
+    font-size: 16px;
+    color: lightgray;
+}
+.recommendations-blocks + .recommendations-blocks {
+    margin-top: 10px;
+}
+.more-main {
+    background-color: #C04949;
+    height: 67px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 35px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.more-button p {
+    font-size: 36px;
+    padding-top: 12px;
+}
